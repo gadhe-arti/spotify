@@ -1,0 +1,371 @@
+*{
+    background-color: black;
+}
+.row{
+    margin-left: 0px;
+}
+.color{
+    background-color: black; 
+    margin-top: -30px;
+    height: 1500px;
+    margin-right: ;
+}
+#navbar{
+    width: 100%;
+    
+}
+.card img:hover{
+     cursor: pointer;
+}
+#navbar-icon{
+    color: white;
+}
+
+.nav-item a{
+    color: white;
+    font-weight: bold; 
+}
+.container-fluid a{
+    color: white;
+    font-weight: bold; 
+}
+
+#singer{
+    color: white;
+    font-weight: bold; 
+}
+#singer1{
+    color: white;
+    font-weight: bold; 
+    margin-top: 35px;
+    font-size: 25px;
+    float:left;
+}
+.row{
+    margin-top: -40px;
+    margin-right: 0px;
+ 
+}
+#img{
+    width: 270px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-size: cover;
+    margin-left: px;
+   
+}
+#img img{
+    width: 285px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+#img img:hover{
+    transform: scale(1.2);
+}
+.text-start{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: px;
+    color: rgb(255, 255, 255);
+}
+
+.col{
+    width: 290px;
+    height: 240px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 13px;
+    background-color: black;
+}
+.card{
+    border: none;
+}
+.card-img-top{
+    border: none; 
+}
+.card-title{
+    color: white;
+
+}
+#Popular{
+    z-index: -1;
+    padding: 20px 15px;
+}
+/* popular-radio///trending-episode */
+ .play-btn1{
+    position: absolute;
+    color: green;
+    border-radius: 25px;
+    margin-top: -30px;
+    right: 10px;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+  
+}
+#col1:hover .play-btn1 {
+    opacity: 1;
+     transform: scale(1.2);
+     
+}
+.play-btn2{
+    position: absolute;
+    color: green;
+    border-radius: 25px;
+    margin-top: -30px;
+    right: 10px;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+  
+}
+#col2:hover .play-btn2{
+    opacity: 1;
+     transform: scale(1.2);
+     
+}
+.play-btn3{
+    position: absolute;
+    color: green;
+    border-radius: 25px;
+    margin-top: -30px;
+    right: 10px;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+  
+}
+#col3:hover .play-btn3{
+    opacity: 1;
+     transform: scale(1.2);
+     
+}
+.play-btn4{
+    position: absolute;
+    color: green;
+    border-radius: 25px;
+    margin-top: -30px;
+    right: 10px;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+  
+}
+#col4:hover .play-btn4{
+    opacity: 1;
+     transform: scale(1.2);
+     
+}
+.play-btn5{
+    position: absolute;
+    color: green;
+    border-radius: 25px;
+    margin-top: -30px;
+    right: 10px;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+  
+}
+#col5:hover .play-btn5{
+    opacity: 1;
+     transform: scale(1.2);
+     
+}
+.play-btn6{
+    position: absolute;
+    color: green;
+    border-radius: 25px;
+    margin-top: -30px;
+    right: 10px;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+  
+}
+#col6:hover .play-btn6{
+    opacity: 1;
+     transform: scale(1.2);
+     
+}
+.play-btn7{
+    position: absolute;
+    color: green;
+    border-radius: 25px;
+    margin-top: -30px;
+    right: 10px;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+  
+}
+#col7:hover .play-btn7{
+    opacity: 1;
+     transform: scale(1.2);
+     
+}
+.play-btn8{
+    position: absolute;
+    color: green;
+    border-radius: 25px;
+    margin-top: -30px;
+    right: 10px;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+  
+}
+#col8:hover .play-btn8{
+    opacity: 1;
+     transform: scale(1.2);
+     
+}
+.item{
+    cursor: pointer;
+}
+#text p{
+    color: rgb(117, 119, 120);
+}
+#col1{
+    margin-top: 130px;
+}
+#col2{
+    margin-top: 130px;
+}
+#col3{
+    margin-top: 130px;
+}
+#col4{
+    margin-top: 130px;
+}
+#col5{
+    margin-top: 130px;
+}
+#col6{
+    margin-top: 130px;
+}
+#col7{
+    margin-top: 130px;
+}
+#col8{
+    margin-top: 130px;
+}
+#col1div{
+    margin-top: -140px;
+}
+#trending-episode{
+   padding-top:170px ;
+}
+.podcast{
+    padding-top:130px ;     
+}
+#podcast{
+    margin-top: -120px;
+}
+.podcast-img img{
+    height:250px;
+    width: 250px;
+}
+.card-body p{
+    color: rgb(117, 119, 120);
+}
+#Popular1{
+    z-index: -1;
+    padding: 20px 15px;
+}
+#Popular1:hover{
+    text-decoration: underline;
+}
+#podcast-col{
+    margin-top: 130px;
+}
+.footer{
+    padding: 180px 30px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer-col{
+    width: 20%;
+    padding: 0px 15px;
+}
+#row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col ul li{
+    list-style: none; 
+} 
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 6px;
+    text-decoration: underline;
+}
+.footer-col h4{
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: bold;
+    position: relative;   
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+#footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+   
+}
+#footer-col ul{
+    display: flex;
+}
+#footer-col ul li{
+    list-style: none; 
+} 
+#footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+#footer-col ul li a{
+   text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    color: #bbbbbb;
+    display: block;   
+}
+/* responsive */
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+       margin-bottom: 30px;
+    }  
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+     
+    }   
+}

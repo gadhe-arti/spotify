@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/spotify.css">
+    
+  </head>
+  <nav class="navbar bg-dark border-bottom border-body" id="dark-them" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+        <div class="container-fluid" id="navbar">
+          <a class="navbar-brand" href="#"><i class="fa-brands fa-spotify" id="navbar-icon" ></i>Spotify</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" >Home</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="navbar-section">
+                    Premium
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Premium Duo</a></li>
+                  <li><a class="dropdown-item" href="#">Premium Family</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#">Premium Student</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navbar-section">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="navbar-section">Download</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </nav>
+  <!-- image -->
+  <p class="text-start">Popular singer</p>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card"><div id="img" >
+        <img src="img/dhvani" id="img" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+          <h5 class="card-title">Dhvani</h5>
+         
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+       <div id="img" ><img src="img/arijit" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+          <h5 class="card-title">Arijit</h5>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div id="img" ><img src="img/Darshan"  id="img" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+          <h5 class="card-title">Darshan</h5>
+         </div>
+      </div>
+    </div>
+    <div class="col" id="arunita">
+      <div class="card">
+        <div id="img" ><img src="img/arunita" id="img" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+          <h5 class="card-title">Arunita</h5>
+         </div>
+      </div>
+    </div>
+  </div>
+<!-- Popular Albums -->
+<div id="popular-albums">
+  <p class="text-start" id="Popular">Popular albums</p>
+  <div class="row row-cols-1 row-cols-md-2 g-4" >
+    <div class="col">
+      <div class="card"><div id="img" >
+        <img src="img/Animal" id="img" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+          <h5 class="card-title">Animal</h5>
+         </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+       <div id="img" ><img src="img/gadar" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+          <h5 class="card-title">Gadar</h5>
+          </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div id="img" ><img src="img/tiger"  id="img" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+          <h5 class="card-title">Tiger</h5>
+         </div>
+      </div>
+    </div>
+    <div class="col" id="arunita">
+      <div class="card">
+        <div id="img" ><img src="img/yodha" id="img" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+          <h5 class="card-title">Yodha</h5>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Popular-radio -->
+<div id="popular-radio">
+  <p class="text-start" id="Popular">Popular Radio</p>
+  <div class="row row-cols-1 row-cols-md-2 g-4" id="col1div">
+    <div class="col" id="col1">
+      <div class="card" id="card1"> <div class="item"><img src="img/first"  class="card-img-top" alt="...">
+        <div class="play-btn1"><i class="fa-solid fa-circle-play fa-2xl"></i></div>
+        <div class="card-body" id="text">
+          <h5 class="card-title">Arijit singh</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+           </div>
+      </div>
+    </div>
+    <div class="col" id="col2">
+      <div class="card" id="card1"> <div class="item"><img src="img/second"  class="card-img-top" alt="..."><div class="play-btn2"><i class="fa-solid fa-circle-play fa-2xl"></i></div></div>
+        <div class="card-body"  id="text">
+          <h5 class="card-title">Diljit dosanjh</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col" id="col3">
+      <div class="card" id="card1"> <div class="item"><img src="img/third"  class="card-img-top" alt="..."><div class="play-btn3"><i class="fa-solid fa-circle-play fa-2xl"></i></div></div>
+        <div class="card-body"  id="text">
+          <h5 class="card-title">Shreya Sharma</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col" id="col4">
+      <div class="card" id="card1"> <div class="item"><img src="img/four"  class="card-img-top" alt="..."><div class="play-btn4"><i class="fa-solid fa-circle-play fa-2xl"></i></div></div>
+        <div class="card-body"  id="text">
+          <h5 class="card-title">Kumar Sanu</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- trending episode -->
+<div id="trending-episode">
+  <p class="text-start" id="Popular">Trending episode</p>
+  <div class="row row-cols-1 row-cols-md-2 g-4" id="col1div">
+    <div class="col" id="col5">
+      <div class="card" id="card1"> <div class="item"><img src="img/mahabharat"  class="card-img-top" alt="..." height="250px" width="250px">
+        <div class="play-btn5"><i class="fa-solid fa-circle-play fa-2xl"></i></div>
+        <div class="card-body" id="text">
+          <h5 class="card-title">Mahadharat</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+           </div>
+      </div>
+    </div>
+    <div class="col" id="col6">
+      <div class="card" id="card1"> <div class="item"><img src="img/Anubis"  class="card-img-top" alt="..." height="250px" width="250px"><div class="play-btn6" ><i class="fa-solid fa-circle-play fa-2xl"></i></div></div>
+        <div class="card-body"  id="text">
+          <h5 class="card-title">Anubis</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col" id="col7">
+      <div class="card" id="card1"> <div class="item"><img src="img/horror"  class="card-img-top" alt="..." height="250px" width="250px"><div class="play-btn7"><i class="fa-solid fa-circle-play fa-2xl"></i></div></div>
+        <div class="card-body"  id="text">
+          <h5 class="card-title">Horror</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col" id="col8">
+      <div class="card" id="card1"> <div class="item"><img src="img/welcome"  class="card-img-top" alt="..." height="250px" width="250px"><div class="play-btn8"><i class="fa-solid fa-circle-play fa-2xl"></i></div></div>
+        <div class="card-body"  id="text">
+          <h5 class="card-title">Welcome back,rj</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- spotify-orinignal-podcast -->
+  <div class="podcast">
+    <p class="text-start">spotify original podcast</p>
+    <div class="row row-cols-1 row-cols-md-2 g-4" id="podcast">
+      <div class="col" id="podcast-col">
+        <div class="card">
+          <div class="podcast-img">
+          <img src="img/joe rogan"  class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Joe rogan</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" id="podcast-col">
+        <div class="card">
+          <div class="podcast-img">
+            <img src="img/true" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">True Story Bro!</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+      </div>
+      <div class="col" id="podcast-col">
+        <div class="card" >
+          <div class="podcast-img"><img src="img/gopi"class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">Gopi sudhakar</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+           </div>
+        </div>
+      </div>
+      <div class="col" id="podcast-col">
+        <div class="card">
+          <div class="podcast-img"><img src="img/pretkatha" class="card-img-top" alt="..."></div>
+          <div class="card-body">
+            <h5 class="card-title">premkatha(bengali)</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+           </div>
+        </div>
+      </div>
+    </div>
+   <div>
+<div class="footer">
+  <div class="contianer">
+    <div id="row">
+      <div class="footer-col">
+        <h4> Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">For the Record</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Communities</h4>
+        <ul>
+          <li><a href="#">For Artists</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Investors</a></li>
+        </ul>
+      </div>
+      <div class="footer-col" id="footer-col1" style="margin-left: 30px;">
+        <h4>Useful links</h4>
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Free Mobile App</a></li>
+ 
+        </ul>
+      </div>
+      <div id="footer-col">
+       <div class="social-links"> 
+        <ul>
+        <li><a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
+       
+      </ul></div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
